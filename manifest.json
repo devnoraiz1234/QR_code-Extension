@@ -1,0 +1,21 @@
+{
+    "name": "QR Code",
+    "version": "1.0.0",
+    "description": "This is used to scan the QR code",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "QR.html"
+    },
+    "icons": {
+        "16": "16.png",
+        "32": "32.png",
+        "64": "64.png",
+        "128": "128.png"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": ["QRCode.js", "QR.js", "code.css", "code.js"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}
